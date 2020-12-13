@@ -104,8 +104,8 @@ insts = open("data/day12.txt").read().splitlines()
 ship = Ship()
 for inst in insts:
     ship.part1(inst)
-print('P1:', ship.manhattan())
+print("P1:", ship.manhattan())
 ship = Ship()
 for inst in insts:
     ship.part2(inst)
-print('P2:', ship.manhattan())
+print("P2:", ship.manhattan())
